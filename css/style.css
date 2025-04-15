@@ -24,24 +24,17 @@
   padding-bottom: 15pt;
 }
 
-.page-content-formula {
-  color: rgb(46 54 121);
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 1.7rem;
-  padding-bottom: 15pt;
-}
-
 .page-content-guide {
   color: rgb(61 61 61);
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 1.2rem;
-  padding-top: 15pt;
+  font-size: 1.5rem;
+  padding-bottom: 15pt;
 }
 
 .page-content {
   color: rgb(61 61 61);
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   padding-top: 10pt;
   padding-bottom: 20pt;
 }
@@ -49,8 +42,8 @@
 .page-content-answer {
   color: rgb(61 61 61);
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 1.5rem;
   padding-top: 10pt;
+  padding-bottom: 20pt;
 }
 
 img {

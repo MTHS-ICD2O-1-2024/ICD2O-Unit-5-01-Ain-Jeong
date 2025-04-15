@@ -19,10 +19,10 @@ function checkNumber() {
   // process
   if (userNumber == randomNumber) {
     // output
-    document.getElementById("answer").innerHTML = "You have guessed the correct number!"
+    document.getElementById("answer").innerHTML = "You have guessed the right number!"
   }
   if (userNumber != randomNumber) {
     // output
-    document.getElementById("answer").innerHTML = "You have guessed the wrong number!"
+    document.getElementById("answer").innerHTML = "You have guessed the wrong number! The number was " + randomNumber + "."
   }
 }
