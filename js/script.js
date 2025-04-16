@@ -12,17 +12,17 @@ const randomNumber = Math.floor(Math.random() * 6) + 1
 
 function checkNumber() {
   // input
-  const userNumber = parseFloat(
-    document.getElementById("user-number").value
-  )
+  const userNumber = parseFloat(document.getElementById("user-number").value)
 
   // process
-  if (userNumber == randomNumber) {
+  if (userNumber === randomNumber) {
     // output
-    document.getElementById("answer").innerHTML = "You have guessed the right number!"
+    document.getElementById("answer").innerHTML =
+      "You have guessed the right number!"
   }
-  if (userNumber != randomNumber) {
+  if (userNumber !== randomNumber) {
     // output
-    document.getElementById("answer").innerHTML = "You have guessed the wrong number! The number was " + randomNumber + "."
+    document.getElementById("answer").innerHTML =
+      "You have guessed the wrong number! The number was " + randomNumber + "."
   }
 }
